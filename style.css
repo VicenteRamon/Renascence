@@ -1,0 +1,136 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Serif+Pro:wght@700&display=swap');
+
+/*reset css*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Titulo*/
+h1 {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+}
+
+body {
+    position: relative;
+    background: linear-gradient(90.37deg, #444436 -27.95%, #1A1615 132.36%);
+    height: 1200px;
+    color: #ffffff;
+    margin-top: 42px;
+}
+
+/* header */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    padding-bottom: 15px;
+    gap: 45px;
+
+}
+
+.nav-1 {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-1-item {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+
+
+.secao-1 {
+    margin: auto;
+    width: 1460px;
+    height: 912px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 14, 14, 0) 0%, #0E0E0E 100%);
+    box-shadow: 0px 6px 40px 19px rgba(26, 22, 21, 0.4);
+    z-index: 1;
+}
+
+/* blocks */
+
+.conteudo {
+    border-top: #ffffff 0.2px solid;
+    padding-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 43vh 43vh;
+    padding-top: 30px;
+
+}
+
+#bloco-1 {
+
+    border-color: red;
+    border-style: solid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+
+}
+
+#bloco-2 {
+
+    border-color: red;
+    border-style: solid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#bloco-3 {
+    border-color: red;
+    border-style: solid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+#bloco-4 {
+
+    border-color: red;
+    border-style: solid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#bloco-5 {
+
+    border-color: red;
+    border-style: solid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#mona-grande {
+    margin: auto;
+    z-index: 1;
+    position: absolute;
+    margin-top: 5.6vh;
+
+
+}
+
+#arco {
+    position: absolute;
+    margin-top: 5.6vh;
+
+
+}
